@@ -4,9 +4,9 @@
    ・ページを開いたら、科目の全スライドを裏で1つずつ取って保存する（まだ開いていない回もオフラインで開けるように）。
      中身が変わったものだけ取り直す（ハッシュで判断）。 */
 const NS = "suu2-slides";
-const VERSION = "39e54c9a4ef3";
+const VERSION = "271051c90e87";
 const FILES = {
- "index.html": "07111f8b7e38",
+ "index.html": "be43b0624610",
  "exp-log/5-1_shisuu-housoku.html": "d8bb151422fd",
  "exp-log/5-2_shisuu-kansuu-graph.html": "7dc64cad640f",
  "exp-log/5-3_taisuu.html": "5d5ff276795b",
@@ -37,39 +37,7 @@ const FILES = {
  "exp-log/katex/fonts/KaTeX_Size2-Regular.woff2": "ee18713634a3",
  "exp-log/katex/fonts/KaTeX_Size3-Regular.woff2": "19a7caadfb66",
  "exp-log/katex/fonts/KaTeX_Size4-Regular.woff2": "9bed17fb92f2",
- "exp-log/katex/fonts/KaTeX_Typewriter-Regular.woff2": "7a08883fffc6",
- "sonosaki-trig/1_graph-shuuki.html": "13330aba64b1",
- "sonosaki-trig/2_houteishiki-futoushiki.html": "95242d2b7cf5",
- "sonosaki-trig/3_wa-sa-to-shiki.html": "327e95b6e9e1",
- "sonosaki-trig/4_toushiki-shoumei.html": "640e8494c296",
- "sonosaki-trig/5_kahou-teiri-ouyou.html": "0fbb46217e2e",
- "sonosaki-trig/6_baikaku-hankaku.html": "94e956df34bb",
- "sonosaki-trig/7_gousei.html": "0241d0e0911a",
- "sonosaki-trig/8_saidai-saishou.html": "9ce3269f34ff",
- "sonosaki-trig/9_t-okikae.html": "2e55ecdc30d5",
- "sonosaki-trig/10_wa-seki-koushiki.html": "1785f16459d9",
- "sonosaki-trig/katex/katex.min.css": "3f94e1b737ae",
- "sonosaki-trig/katex/katex.min.js": "4881bfc93aaf",
- "sonosaki-trig/katex/fonts/KaTeX_AMS-Regular.woff2": "34494743736f",
- "sonosaki-trig/katex/fonts/KaTeX_Caligraphic-Bold.woff2": "5bfa49cac46c",
- "sonosaki-trig/katex/fonts/KaTeX_Caligraphic-Regular.woff2": "9f8077e0b38a",
- "sonosaki-trig/katex/fonts/KaTeX_Fraktur-Bold.woff2": "f98f89272eca",
- "sonosaki-trig/katex/fonts/KaTeX_Fraktur-Regular.woff2": "a5764c6e2784",
- "sonosaki-trig/katex/fonts/KaTeX_Main-Bold.woff2": "31050a1b1b12",
- "sonosaki-trig/katex/fonts/KaTeX_Main-BoldItalic.woff2": "a4a4905b8b12",
- "sonosaki-trig/katex/fonts/KaTeX_Main-Italic.woff2": "c9b2b5ffd2f2",
- "sonosaki-trig/katex/fonts/KaTeX_Main-Regular.woff2": "c884086c25ce",
- "sonosaki-trig/katex/fonts/KaTeX_Math-BoldItalic.woff2": "8fcb9d2de65a",
- "sonosaki-trig/katex/fonts/KaTeX_Math-Italic.woff2": "db4883d0cff9",
- "sonosaki-trig/katex/fonts/KaTeX_SansSerif-Bold.woff2": "886e61797a52",
- "sonosaki-trig/katex/fonts/KaTeX_SansSerif-Italic.woff2": "3d5fa3cb309f",
- "sonosaki-trig/katex/fonts/KaTeX_SansSerif-Regular.woff2": "e45d5f4f4a7f",
- "sonosaki-trig/katex/fonts/KaTeX_Script-Regular.woff2": "63b80959f1fc",
- "sonosaki-trig/katex/fonts/KaTeX_Size1-Regular.woff2": "57fa599974a1",
- "sonosaki-trig/katex/fonts/KaTeX_Size2-Regular.woff2": "ee18713634a3",
- "sonosaki-trig/katex/fonts/KaTeX_Size3-Regular.woff2": "19a7caadfb66",
- "sonosaki-trig/katex/fonts/KaTeX_Size4-Regular.woff2": "9bed17fb92f2",
- "sonosaki-trig/katex/fonts/KaTeX_Typewriter-Regular.woff2": "7a08883fffc6"
+ "exp-log/katex/fonts/KaTeX_Typewriter-Regular.woff2": "7a08883fffc6"
 };                 // 公開フォルダからの相対パス → 元ファイルのハッシュ
 const FONT_CSS = [
  "https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap",
