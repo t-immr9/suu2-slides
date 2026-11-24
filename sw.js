@@ -4,9 +4,9 @@
    ・ページを開いたら、科目の全スライドを裏で1つずつ取って保存する（まだ開いていない回もオフラインで開けるように）。
      中身が変わったものだけ取り直す（ハッシュで判断）。 */
 const NS = "suu2-slides";
-const VERSION = "271051c90e87";
+const VERSION = "49fa48d6f998";
 const FILES = {
- "index.html": "be43b0624610",
+ "index.html": "24b783eead66",
  "exp-log/5-1_shisuu-housoku.html": "d8bb151422fd",
  "exp-log/5-2_shisuu-kansuu-graph.html": "7dc64cad640f",
  "exp-log/5-3_taisuu.html": "5d5ff276795b",
@@ -37,7 +37,46 @@ const FILES = {
  "exp-log/katex/fonts/KaTeX_Size2-Regular.woff2": "ee18713634a3",
  "exp-log/katex/fonts/KaTeX_Size3-Regular.woff2": "19a7caadfb66",
  "exp-log/katex/fonts/KaTeX_Size4-Regular.woff2": "9bed17fb92f2",
- "exp-log/katex/fonts/KaTeX_Typewriter-Regular.woff2": "7a08883fffc6"
+ "exp-log/katex/fonts/KaTeX_Typewriter-Regular.woff2": "7a08883fffc6",
+ "calculus/6-1_heikin-henkaritsu.html": "81fae80be304",
+ "calculus/6-2_doukansuu.html": "544234733439",
+ "calculus/6-3_iroiro-bibun.html": "5a1a172a8835",
+ "calculus/6-4_sessen.html": "a53fc35c09eb",
+ "calculus/6-5_zougen.html": "fc49229e68f5",
+ "calculus/6-6_kyokudai-kyokushou.html": "0ae5f96621ca",
+ "calculus/6-7_saidai-saishou.html": "ef3240a52de7",
+ "calculus/6-8_houteishiki-futoushiki.html": "04854421f58f",
+ "calculus/6-s1_setsumatsu-bibun.html": "4c32c49ceadd",
+ "calculus/6-9_futeisekibun.html": "fc2fce44c0c7",
+ "calculus/6-10_futeisekibun-keisan.html": "2a057c5a0aff",
+ "calculus/6-11_teisekibun.html": "7f6b6d15610f",
+ "calculus/6-12_teisekibun-seishitsu.html": "89b1da07bf1b",
+ "calculus/6-13_menseki.html": "1cb1a8a6b445",
+ "calculus/6-k_kenkyu-3ji-menseki.html": "cfa4134ed6a7",
+ "calculus/6-f_furikaeri-sekibun.html": "852bcfc2dc57",
+ "calculus/6-s2_setsumatsu-sekibun.html": "bb1f810f6dfd",
+ "calculus/katex/katex.min.css": "3f94e1b737ae",
+ "calculus/katex/katex.min.js": "4881bfc93aaf",
+ "calculus/katex/fonts/KaTeX_AMS-Regular.woff2": "34494743736f",
+ "calculus/katex/fonts/KaTeX_Caligraphic-Bold.woff2": "5bfa49cac46c",
+ "calculus/katex/fonts/KaTeX_Caligraphic-Regular.woff2": "9f8077e0b38a",
+ "calculus/katex/fonts/KaTeX_Fraktur-Bold.woff2": "f98f89272eca",
+ "calculus/katex/fonts/KaTeX_Fraktur-Regular.woff2": "a5764c6e2784",
+ "calculus/katex/fonts/KaTeX_Main-Bold.woff2": "31050a1b1b12",
+ "calculus/katex/fonts/KaTeX_Main-BoldItalic.woff2": "a4a4905b8b12",
+ "calculus/katex/fonts/KaTeX_Main-Italic.woff2": "c9b2b5ffd2f2",
+ "calculus/katex/fonts/KaTeX_Main-Regular.woff2": "c884086c25ce",
+ "calculus/katex/fonts/KaTeX_Math-BoldItalic.woff2": "8fcb9d2de65a",
+ "calculus/katex/fonts/KaTeX_Math-Italic.woff2": "db4883d0cff9",
+ "calculus/katex/fonts/KaTeX_SansSerif-Bold.woff2": "886e61797a52",
+ "calculus/katex/fonts/KaTeX_SansSerif-Italic.woff2": "3d5fa3cb309f",
+ "calculus/katex/fonts/KaTeX_SansSerif-Regular.woff2": "e45d5f4f4a7f",
+ "calculus/katex/fonts/KaTeX_Script-Regular.woff2": "63b80959f1fc",
+ "calculus/katex/fonts/KaTeX_Size1-Regular.woff2": "57fa599974a1",
+ "calculus/katex/fonts/KaTeX_Size2-Regular.woff2": "ee18713634a3",
+ "calculus/katex/fonts/KaTeX_Size3-Regular.woff2": "19a7caadfb66",
+ "calculus/katex/fonts/KaTeX_Size4-Regular.woff2": "9bed17fb92f2",
+ "calculus/katex/fonts/KaTeX_Typewriter-Regular.woff2": "7a08883fffc6"
 };                 // 公開フォルダからの相対パス → 元ファイルのハッシュ
 const FONT_CSS = [
  "https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap",
